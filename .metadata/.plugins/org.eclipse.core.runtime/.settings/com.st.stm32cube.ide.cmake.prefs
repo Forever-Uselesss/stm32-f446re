@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+stm32-Int\:Debug/build=Debug
+stm32-Int\:Debug/cmake_build_type=Debug
+stm32-Int\:Debug/cmake_export_compile_commands=
+stm32-Int\:Debug/cmake_toolchain_file=cubeide-gcc.cmake
+stm32-Int\:Debug/generator=Unix Makefiles
+stm32-Int\:Debug/misc_command=
+stm32-Int\:Debug/src=.
+stm32-multiLED\:Debug/build=Debug
+stm32-multiLED\:Debug/cmake_build_type=Debug
+stm32-multiLED\:Debug/cmake_export_compile_commands=
+stm32-multiLED\:Debug/cmake_toolchain_file=cubeide-gcc.cmake
+stm32-multiLED\:Debug/generator=Unix Makefiles
+stm32-multiLED\:Debug/misc_command=
+stm32-multiLED\:Debug/src=.

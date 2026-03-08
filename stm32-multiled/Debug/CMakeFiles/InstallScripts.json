@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/joej/Development/stm32-f446re/stm32-multiled/Debug/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,6 @@
+17:55:34 **** Incremental Build of configuration Debug for project stm32-multiLED ****
+cmake --build Debug 
+[100%] Built target stm32-multiLED
+
+17:55:35 Build Finished. 0 errors, 0 warnings. (took 455ms)
+

@@ -1,0 +1,46 @@
+{
+  // ==========================
+  // STM32 Project Settings
+  // ==========================
+
+  // Tell VS Code to treat these as C files
+  "files.associations": {
+    "*.h": "c",
+    "*.ioc": "plaintext",
+    "stm32f4xx_hal.h": "c",
+    "stm32f4xx.h": "c"
+  },
+
+  // IntelliSense + cpptools
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.loggingLevel": "Warning",
+
+  // Formatting style (optional)
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, UseTab: Never }",
+
+  // ==========================
+  // Build and Environment
+  // ==========================
+
+  // Set the default terminal to PowerShell or cmd
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  // Optional: specify build tool output
+  "tasks.problemMatchers.neverPrompt": true,
+
+  // Automatically refresh IntelliSense when CMake config changes
+  "cmake.configureOnOpen": false,
+
+  // ==========================
+  // Quality of Life
+  // ==========================
+  "editor.formatOnSave": false,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.rulers": [],
+  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": true,
+  "cmake.cmakePath": "cube-cmake",
+}

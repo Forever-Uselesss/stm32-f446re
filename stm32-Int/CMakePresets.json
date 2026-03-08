@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "debug",
+            "displayName": "STM32 Debug",
+            "description": "Debug configuration for STM32F446RE",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build",
+            "toolchainFile": "${sourceDir}/cubeide-gcc.cmake",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debug-build",
+            "configurePreset": "debug",
+            "displayName": "Build STM32 Debug"
+        }
+    ]
+}
